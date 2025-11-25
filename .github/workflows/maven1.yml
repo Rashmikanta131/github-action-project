@@ -19,6 +19,7 @@ Jobs
 Run details
 Workflow file for this run
 .github/workflows/maven.yml at 57b9649
+name: Maven Build & Deploy
 on:
   push:
     branches: [ main ]   # Trigger on push to main branch
